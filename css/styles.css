@@ -147,7 +147,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office\ 1\ \(1\).jpg");
+    url("../images/people-office.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +188,7 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
@@ -354,6 +354,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item {
@@ -365,8 +366,8 @@ img {
   overflow: hidden;
 }
 
-.portfolio-item:hover .portfolio-item-overlay {
-  transform: translateY(0);
+.portfolio-item:hover .portfolio-item-text {
+  transform: translateY(0%);
 }
 
 .portfolio-item:hover,
