@@ -139,7 +139,7 @@ img {
   color: #404bbf;
 }
 
-/*<-------------main-sectione-Hero----------->*/
+/*<-------------main-sectione-Hero-1----------->*/
 
 .hero {
   background-color: #2e2f42;
@@ -197,7 +197,7 @@ img {
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-/*<-------------sectione-quote 3----------->*/
+/*<-------------sectione-quote 2----------->*/
 
 .section-quote {
   padding: 120px 0;
@@ -253,7 +253,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*<-------------sectione-Team 4----------->*/
+/*<-------------sectione-Team-3----------->*/
 
 .section-team {
   background-color: #f4f4fd;
@@ -280,6 +280,8 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* .team-img {
@@ -312,7 +314,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /* .team-icon-list-item {
@@ -334,7 +336,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*<-------------sectione-Portfolio 5----------->*/
+.team-icon {
+  fill: #f4f4fd;
+}
+
+/*<-------------sectione-Portfolio-4----------->*/
 
 .section-portfolio {
   padding: 120px 0 120px 0;
