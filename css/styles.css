@@ -317,8 +317,9 @@ img {
   gap: 24px;
 }
 
-/* .team-icon-list-item {
-} */
+.team-icon-list a {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .team-icon-wrapper {
   display: flex;
@@ -328,7 +329,6 @@ img {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-wrapper:hover,
@@ -480,6 +480,10 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.footer-socmedia-item a {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-wrapper {
